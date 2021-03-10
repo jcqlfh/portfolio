@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+:root {
+  --menu-bg-color: #3c3c3c;
+  --menu-bg-color-selected: #5c5c5c;
+  --menu-color: #dddddd;
+  --main-font: 'Segoe UI';
+  --win-font: 'Orbitron';
+  --win-close: #ff0000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  background-color: var(--menu-bg-color);
+  color: var(--menu-color);
+  font-family: var(--main-font);
+}
+
+.menu > .icon {
+  min-width: 24px;
+  min-height: 24px;
+  margin: 0 0.5rem 0;
+  background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/main/code.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu > .menu-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 0 0 0.5rem;
+  list-style: none;
+}
+
+.menu > .menu-list > .menu-item {
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+}
+
+.menu > .menu-list > .menu-item:hover {
+  background-color: var(--menu-bg-color-selected);
+}
+
+.menu > .title {
+  margin: 0 0 0 2rem;
+  width: 50%;
+}
+
+.menu > .buttons {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  right: 0;
+}
+
+.buttons > div {
+  width: 32px;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  font-family: var(--win-font);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.buttons > div:hover {
+  background-color: var(--menu-bg-color-selected);
+}
+
+.buttons > .close:hover {
+  background-color: var(--win-close);
+}
