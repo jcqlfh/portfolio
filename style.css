@@ -1,17 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+@font-face {
+  font-family: codicon;
+  src: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/fonts/codicon.ttf');
+}
+
 :root {
   --menu-bg-color: #3c3c3c;
   --menu-bg-color-selected: #5c5c5c;
   --menu-color: #dddddd;
   --main-font: 'Segoe UI';
+  --main-font-thin: 'Segoe UI Thin';
   --win-font: 'Orbitron';
   --win-close: #ff0000;
+  --side-bar-bg-color: #252525;
+  --sidebar-fixed-bg-color: #333333;
+  --sidebar-font: 'codicon';
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: var(--main-font);
+}
+.wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
 }
 
 .menu {
@@ -79,4 +96,79 @@ body {
 
 .buttons > .close:hover {
   background-color: var(--win-close);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+main > .sidebar {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: 100%;
+}
+
+main > .sidebar > .fixedbar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 3.5rem;
+  height: 100%;
+  font-family: var(--sidebar-font);
+  font-size: 2rem;
+  background-color: var(--sidebar-fixed-bg-color);
+}
+
+main > .sidebar > .fixedbar > div {
+  padding: 0.6rem;
+  color: var(--menu-bg-color-selected);
+}
+
+main > .sidebar > .fixedbar > div:hover {
+  color: var(--menu-color);
+  border-left: 2px solid var(--menu-color);
+}
+
+main > .sidebar > .fixedbar > .explorer::before {
+  content: '\eaf0';
+}
+
+main > .sidebar > .fixedbar > .search::before {
+  content: '\ea6d';
+}
+
+main > .sidebar > .fixedbar > .source-control::before {
+  content: '\ea68';
+}
+
+main > .sidebar > .fixedbar > .debug::before {
+  content: '\eb91';
+}
+
+main > .sidebar > .fixedbar > .remote::before {
+  content: '\eb39';
+}
+
+main > .sidebar > .fixedbar > .extension::before {
+  content: '\eae6';
+}
+
+main > .sidebar > .collapsable {
+  height: 100%;
+  width: 99%;
+  background-color: var(--side-bar-bg-color);
+}
+
+main > .sidebar > .collapsable > .title {
+  margin: 0.6rem 0 0.6rem 2rem;
+  font-family: var(--main-font-thin);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--menu-color);
 }
