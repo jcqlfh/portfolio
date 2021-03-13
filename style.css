@@ -14,6 +14,7 @@
   --win-font: 'Orbitron';
   --win-close: #ff0000;
   --side-bar-bg-color: #252525;
+  --side-bar-bg-selected-color: #383838;
   --sidebar-fixed-bg-color: #333333;
   --sidebar-font: 'codicon';
 }
@@ -22,13 +23,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--main-font);
+  height: 100vh;
+  width: 100vw;
 }
 .wrapper {
   display: flex;
   flex: 1;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 
 .menu {
@@ -128,6 +131,7 @@ main > .sidebar > .fixedbar {
 main > .sidebar > .fixedbar > div {
   padding: 0.6rem;
   color: var(--menu-bg-color-selected);
+  border-left: 2px solid var(--sidebar-fixed-bg-color);
 }
 
 main > .sidebar > .fixedbar > div:hover {
@@ -161,14 +165,158 @@ main > .sidebar > .fixedbar > .extension::before {
 
 main > .sidebar > .collapsable {
   height: 100%;
-  width: 99%;
+  width: 100%;
+  min-width: 12rem;
   background-color: var(--side-bar-bg-color);
 }
 
 main > .sidebar > .collapsable > .title {
-  margin: 0.6rem 0 0.6rem 2rem;
+  margin: 0.5rem 0 0.5rem 1.5rem;
   font-family: var(--main-font-thin);
   font-size: 0.8rem;
   text-transform: uppercase;
   color: var(--menu-color);
+}
+
+main > .sidebar > .collapsable > .content {
+  display: inline;
+  width: 100%;
+  height: 100%;
+}
+
+main > .sidebar > .collapsable > .content > .accordeon {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid var(--menu-bg-color-selected);
+}
+
+main > .sidebar > .collapsable > .content > .accordeon > .editor {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+main > .sidebar > .collapsable > .content > .accordeon > .editor > span {
+  margin: 0.1rem 0 0.1rem 0;
+  padding: 0;
+  color: var(--menu-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+main
+  > .sidebar
+  > .collapsable
+  > .content
+  > .accordeon
+  > .editor
+  > span::before {
+  margin: 0 0.25rem 0 0.25rem;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--sidebar-font);
+  content: '\eab4';
+}
+
+main > .sidebar > .collapsable > .content > .accordeon > .editor > .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.1rem 0 0.1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--menu-color);
+  list-style: none;
+}
+
+main > .sidebar > .collapsable > .content > .accordeon > .editor > .item:hover {
+  background-color: var(--side-bar-bg-selected-color);
+}
+
+main
+  > .sidebar
+  > .collapsable
+  > .content
+  > .accordeon
+  > .editor
+  > .item::before {
+  margin: 0.1rem 0.1rem 0.1rem 0;
+  color: var(--side-bar-bg-color);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--sidebar-font);
+  content: '\ea76';
+}
+
+main
+  > .sidebar
+  > .collapsable
+  > .content
+  > .accordeon
+  > .editor
+  > .item:hover::before {
+  color: var(--menu-color);
+}
+
+main
+  > .sidebar
+  > .collapsable
+  > .content
+  > .accordeon
+  > .editor
+  > .item
+  > span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0.1rem 0 0.1rem 0;
+}
+
+main
+  > .sidebar
+  > .collapsable
+  > .content
+  > .accordeon
+  > .editor
+  > .item
+  > span::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0.1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: ' ';
+}
+
+main
+  > .sidebar
+  > .collapsable
+  > .content
+  > .accordeon
+  > .editor
+  > .item.html
+  > span::before {
+  background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/html.svg');
+}
+
+main
+  > .sidebar
+  > .collapsable
+  > .content
+  > .accordeon
+  > .editor
+  > .item.css
+  > span::before {
+  background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/css.svg');
 }
