@@ -359,7 +359,13 @@ main > .sidebar > .collapsable > .content > .accordeon > .explorer .item {
   flex-direction: column;
 }
 
+main > .sidebar > .collapsable > .content > .accordeon > .explorer .item ul {
+  margin-left: 5%;
+  padding-left: 0;
+}
+
 main > .sidebar > .collapsable > .content > .accordeon > .explorer .item .desc {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -367,16 +373,24 @@ main > .sidebar > .collapsable > .content > .accordeon > .explorer .item .desc {
   font-size: 1rem;
   font-weight: 400;
   color: var(--menu-color);
+  z-index: 99;
 }
 
-main
-  > .sidebar
-  > .collapsable
-  > .content
-  > .accordeon
-  > .explorer
-  .item
-  .desc:hover {
+main > .sidebar > .collapsable > .content > .accordeon > .explorer .select {
+  position: absolute;
+  width: 12rem;
+  height: 1.5rem;
+  left: 3.3rem;
+  z-index: 100;
+}
+
+main > .sidebar > .collapsable > .content > .accordeon > .explorer .selected {
+  visibility: hidden;
+  position: absolute;
+  width: 12rem;
+  height: 1.5rem;
+  left: 3.3rem;
+  z-index: 98;
   background-color: var(--side-bar-bg-selected-color);
 }
 
@@ -466,32 +480,4 @@ main
   .desc
   span.folder::before {
   background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/folder.png');
-}
-
-main > .sidebar > .collapsable > .content > .accordeon > .explorer .item ul {
-  padding-left: 5%;
-}
-
-main
-  > .sidebar
-  > .collapsable
-  > .content
-  > .accordeon
-  > .explorer
-  .item
-  ul:hover {
-  background-color: var(--side-bar-bg-selected-color);
-}
-
-main
-  > .sidebar
-  > .collapsable
-  > .content
-  > .accordeon
-  > .explorer
-  .item
-  ul
-  .desc
-  div {
-  border-left: 1px solid wheat;
 }

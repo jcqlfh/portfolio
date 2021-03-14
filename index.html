@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=1080px, initial-scale=1.0" />
     <title>joze.cc</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function () {
+        $('.select').mouseenter(obj => {
+          $(obj.target).parent().children().get(1).style.visibility = 'visible';
+        });
+        $('.select').mouseout(obj => {
+          $(obj.target).parent().children().get(1).style.visibility = 'hidden';
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -52,15 +63,21 @@
                 <ul class="explorer">
                   <span>joze.cc (Workspace)</span>
                   <li class="item">
+                    <div class="select"></div>
+                    <div class="selected"></div>
                     <div class="desc">
                       <div><span class="folder">joze.cc</span></div>
                     </div>
                     <ul>
                       <li class="item">
+                        <div class="select"></div>
+                        <div class="selected"></div>
                         <div class="desc">
                           <div><span class="folder">portfolio</span></div>
                         </div>
                         <ul>
+                          <div class="select"></div>
+                          <div class="selected"></div>
                           <li class="item">
                             <div class="desc">
                               <div><span class="folder">portfolio</span></div>
