@@ -1,5 +1,27 @@
 @media screen and (min-width: 600px) {
-  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+  @font-face {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/orbitron/v17/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6BoWgz.woff2)
+      format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+      U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2')
+        format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff')
+        format('woff'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf')
+        format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
 
   @font-face {
     font-family: codicon;
@@ -76,8 +98,36 @@
     --side-bar-bg-color: #252525;
     --side-bar-bg-selected-color: #383838;
     --sidebar-fixed-bg-color: #333333;
+    --sidebar-fixed-size: 3.5rem;
     --sidebar-font: 'codicon';
-    --sidebar-size: 15rem;
+    --sidebar-size: 17rem;
+    --editor-bg-color: #1e1e1e;
+    --editor-tab-color: #3a3d41;
+    --editor-tab-bg-color: #383b3d50;
+    --editor-font: 'JetBrainsMono';
+  }
+
+  ::-webkit-scrollbar {
+    width: 16px;
+    opacity: 0.8;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--editor-bg-color);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--editor-bg-color);
+    transition: background-color 4s;
+    transition-timing-function: ease-in;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background-color: var(--editor-bg-color);
   }
 
   body {
@@ -86,6 +136,8 @@
     font-family: var(--main-font);
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
+    overflow-wrap: break-word;
   }
   .wrapper {
     display: flex;
@@ -132,6 +184,9 @@
   }
 
   .menu > .title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     margin: 0 0 0 2rem;
     width: 50%;
   }
@@ -143,6 +198,7 @@
     margin: 0;
     padding: 0;
     right: 0;
+    background-color: var(--menu-bg-color);
   }
 
   .buttons > div {
@@ -167,13 +223,12 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
-    background-color: aqua;
   }
 
   main > .sidebar {
     display: flex;
     flex-direction: row;
-    width: 20%;
+    width: var(--sidebar-size);
     height: 100%;
   }
 
@@ -182,7 +237,7 @@
     flex: 1;
     flex-direction: column;
     align-items: center;
-    width: 3.5rem;
+    width: var(--sidebar-fixed-size);
     min-width: 3.5rem;
     max-width: 3.5rem;
     height: 100%;
@@ -461,18 +516,18 @@
 
   main > .sidebar > .collapsable > .content > .accordeon > .explorer .select {
     position: absolute;
-    width: var(--sidebar-size);
+    width: calc(var(--sidebar-size) - var(--sidebar-fixed-size));
     height: 1.5rem;
-    left: 3.5rem;
+    left: var(--sidebar-fixed-size);
     z-index: 100;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .explorer .selected {
     visibility: hidden;
     position: absolute;
-    width: calc(var(--sidebar-size) - 1.5rem);
+    width: calc(var(--sidebar-size) - var(--sidebar-fixed-size));
     height: 1.5rem;
-    left: 3.5rem;
+    left: var(--sidebar-fixed-size);
     z-index: 98;
     background-color: var(--side-bar-bg-selected-color);
   }
@@ -629,5 +684,164 @@
     font-weight: 400;
     font-family: var(--sidebar-font);
     content: '\eab4';
+  }
+
+  main > .editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--editor-bg-color);
+  }
+
+  main > .editor > .logo {
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/main/code.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+    filter: saturate(0);
+    z-index: 0;
+  }
+
+  main > .editor > .wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    z-index: 1;
+  }
+
+  main > .editor > .wrapper > .tabbar {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: 100%;
+    background-color: var(--side-bar-bg-color);
+    font-family: var(--main-font);
+  }
+
+  main > .editor > .wrapper > .tabbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  main > .editor > .wrapper > .tabbar ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    margin: 0;
+    padding: 0 0.5rem 0 0.5rem;
+    list-style: none;
+    background-color: var(--editor-tab-bg-color);
+    color: var(--menu-bg-color-selected);
+  }
+
+  main > .editor > .wrapper > .tabbar ul li.active {
+    background-color: var(--editor-bg-color);
+    color: var(--menu-color);
+  }
+
+  main > .editor > .wrapper > .tabbar ul li::before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0.1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ' ';
+  }
+
+  main > .editor > .wrapper > .tabbar ul li.html::before {
+    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/html.svg');
+  }
+
+  main > .editor > .wrapper > .tabbar ul li.css::before {
+    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/css.svg');
+  }
+
+  main > .editor > .wrapper > .tabbar ul li::after {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0.1rem 0.1rem 0.1rem 0.5rem;
+    font-family: var(--sidebar-font);
+    content: '';
+  }
+
+  main > .editor > .wrapper > .tabbar ul li:hover::after,
+  main > .editor > .wrapper > .tabbar ul li.active::after {
+    content: '\ea76';
+  }
+
+  main > .editor > .wrapper > .breadcrumb {
+    position: absolute;
+    margin-top: 3rem;
+    width: 100%;
+    height: 1.5rem;
+    background-color: var(--editor-bg-color);
+  }
+
+  main > .editor > .wrapper > .breadcrumb.scroll {
+    box-shadow: 2px 2px 2px 0.5px rgba(0, 0, 0, 0.5),
+      1px 1px 5px 0.5px rgba(0, 0, 0, 0.2);
+  }
+
+  main > .editor > .wrapper > .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5rem;
+    padding: 0;
+    width: calc(100% - 5rem);
+    height: 100%;
+    bottom: 0;
+    font-family: var(--editor-font);
+    overflow-y: scroll;
+    overflow-x: visible;
+    overflow-wrap: normal;
+  }
+
+  main > .editor > .wrapper > .content-wrapper > .sidebar-lines {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 5rem;
+    height: 100%;
+    color: var(--sidebar-fixed-bg-color);
+    overflow: hidden;
+  }
+
+  main > .editor > .wrapper > .content-wrapper > .sidebar-lines > .line {
+    width: auto;
+    line-height: 1;
+    margin: 0 1.5rem 0 1.5rem;
+    padding: 0;
+    text-align: right;
+  }
+
+  main > .editor > .wrapper > .content-wrapper > .content {
+    width: calc(100% - var(--sidebar-size) + 1rem);
+    height: 100%;
+    line-height: 1;
+    background-color: var(--editor-bg-color);
+    overflow-x: scroll;
+    overflow-y: visible;
+    overflow-wrap: normal;
   }
 }
