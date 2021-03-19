@@ -16,6 +16,21 @@
         ) {
           $('.sidebar-lines').append('<div class="line">' + i + '</div>');
         }
+        $('main .sidebar .fixedbar div').on('click', evt => {
+          $(evt.target).siblings().removeClass('active');
+          if ($(evt.target).hasClass('active')) {
+            $(evt.target).removeClass('active');
+            $('.collapsable').toggle();
+          } else {
+            $(evt.target).addClass('active');
+            $('.collapsable').show();
+          }
+        });
+
+        $('.collapsable').on('toggle', evt => {
+          console.log('teste');
+        });
+
         $('.content').on('scroll', function () {
           $('.sidebar-lines').scrollTop($(this).scrollTop());
           if ($(this).scrollTop() > 0) {
@@ -67,14 +82,14 @@
           <div class="collapsable">
             <div class="title">Explorer</div>
             <div class="content">
-              <div class="accordeon">
+              <div class="accordeon fit">
                 <ul class="editor">
                   <span>Open Editors</span>
                   <li class="item html"><span>index.html</span></li>
                   <li class="item css"><span>index.css</span></li>
                 </ul>
               </div>
-              <div class="accordeon">
+              <div class="accordeon expand">
                 <ul class="explorer">
                   <span>joze.cc (Workspace)</span>
                   <li class="item">
@@ -107,12 +122,12 @@
                   </li>
                 </ul>
               </div>
-              <div class="accordeon">
+              <div class="accordeon fit">
                 <ul class="outline">
                   <span>Outline</span>
                 </ul>
               </div>
-              <div class="accordeon">
+              <div class="accordeon fit">
                 <ul class="timeline">
                   <span>Timeline</span>
                 </ul>

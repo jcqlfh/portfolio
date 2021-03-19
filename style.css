@@ -25,7 +25,7 @@
 
   @font-face {
     font-family: codicon;
-    src: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/fonts/codicon.ttf');
+    src: url('./assets/fonts/codicon.ttf');
   }
 
   @font-face {
@@ -98,7 +98,9 @@
     --side-bar-bg-color: #252525;
     --side-bar-bg-selected-color: #383838;
     --sidebar-fixed-bg-color: #333333;
-    --sidebar-fixed-size: 3.5rem;
+    --sidebar-fixed-color: #bbbbbb;
+    --sidebar-fixed-selected-color: white;
+    --sidebar-fixed-size: 3rem;
     --sidebar-font: 'codicon';
     --sidebar-size: 17rem;
     --editor-bg-color: #1e1e1e;
@@ -137,12 +139,12 @@
     height: 100vh;
     width: 100vw;
     font-family: var(--main-font);
-    font-size: 12px;
+    font-size: 13px;
     overflow: hidden;
     overflow-wrap: break-word;
     user-select: none;
   }
-  .wrapper {
+  body > .wrapper {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -155,6 +157,7 @@
     flex-direction: row;
     align-items: center;
     justify-items: center;
+    height: 2rem;
     background-color: var(--menu-bg-color);
     color: var(--menu-color);
     font-family: var(--main-font);
@@ -164,7 +167,7 @@
     min-width: 16px;
     min-height: 16px;
     margin: 0 1rem 0;
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/main/code.png');
+    background-image: url('./assets/img/icons/main/code.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -206,9 +209,9 @@
   }
 
   .buttons > div {
-    width: 24px;
+    width: 16px;
     line-height: 2;
-    padding: 0.2rem 1rem 0.2rem 1rem;
+    padding: 0.1rem 1rem 0.1rem 1rem;
     font-family: var(--win-font);
     font-size: 1rem;
     font-weight: 400;
@@ -224,6 +227,7 @@
   }
 
   main {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -231,9 +235,9 @@
   }
 
   main > .sidebar {
+    float: left;
     display: flex;
     flex-direction: row;
-    width: var(--sidebar-size);
     height: 100%;
   }
 
@@ -247,19 +251,23 @@
     max-width: var(--sidebar-fixed-size);
     height: 100%;
     font-family: var(--sidebar-font);
-    font-size: 2rem;
+    font-size: 1.7rem;
     background-color: var(--sidebar-fixed-bg-color);
   }
 
   main > .sidebar > .fixedbar > div {
     padding: 0.6rem;
-    color: var(--menu-bg-color-selected);
+    color: var(--sidebar-fixed-color);
     border-left: 2px solid var(--sidebar-fixed-bg-color);
   }
 
   main > .sidebar > .fixedbar > div:hover {
-    color: var(--menu-color);
-    border-left: 2px solid var(--menu-color);
+    color: var(--sidebar-fixed-selected-color);
+  }
+
+  main > .sidebar > .fixedbar > div.active {
+    color: var(--sidebar-fixed-selected-color);
+    border-left: 2px solid var(--sidebar-fixed-selected-color);
   }
 
   main > .sidebar > .fixedbar > .explorer::before {
@@ -299,40 +307,46 @@
     display: inline-block;
     margin: 0.5rem 0 0.5rem 1.5rem;
     font-family: var(--main-font-thin);
+    font-size: 0.7rem;
     text-transform: uppercase;
     color: var(--menu-color);
   }
 
   main > .sidebar > .collapsable > .content {
-    display: flex;
-    flex-direction: column;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-evenly;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon {
-    height: auto;
-    width: 100%;
+    flex: 1 1 auto;
     margin: 0;
     padding: 0;
     border-bottom: 1px solid var(--menu-bg-color-selected);
+  }
+
+  main > .sidebar > .collapsable > .content > .accordeon.fit {
+    flex: 0 1 auto;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .editor {
     display: flex;
     flex-direction: column;
     justify-items: baseline;
+    height: min-content;
     margin: 0;
     padding: 0;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .editor > span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 0.1rem 0 0.1rem 0;
     padding: 0;
     color: var(--menu-color);
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
   }
@@ -346,6 +360,7 @@
     > span::before {
     margin: 0 0.25rem 0 0.25rem;
     padding: 0;
+    font-size: 1rem;
     font-weight: 400;
     font-family: var(--sidebar-font);
     content: '\eab4';
@@ -437,7 +452,7 @@
     > .editor
     > .item.html
     > span::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/html.svg');
+    background-image: url('./assets/img/icons/material/html.svg');
   }
 
   main
@@ -448,22 +463,26 @@
     > .editor
     > .item.css
     > span::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/css.svg');
+    background-image: url('./assets/img/icons/material/css.svg');
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .explorer {
     display: flex;
     flex-direction: column;
     justify-items: baseline;
-    min-height: 26rem;
+    height: 100%;
     margin: 0;
     padding: 0;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .explorer > span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 0.1rem 0 0.1rem 0;
     padding: 0;
     color: var(--menu-color);
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
   }
@@ -477,6 +496,7 @@
     > span::before {
     margin: 0 0.25rem 0 0.25rem;
     padding: 0;
+    font-size: 1rem;
     font-weight: 400;
     font-family: var(--sidebar-font);
     content: '\eab4';
@@ -508,7 +528,7 @@
     padding: 0.1rem 0 0.1rem 1rem;
     font-weight: 400;
     color: var(--menu-color);
-    z-index: 99;
+    z-index: 98;
   }
 
   main
@@ -525,7 +545,7 @@
     align-items: center;
     font-weight: 400;
     color: var(--menu-color);
-    z-index: 99;
+    z-index: 0;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .explorer .select {
@@ -533,7 +553,7 @@
     width: calc(var(--sidebar-size) - var(--sidebar-fixed-size));
     height: 1.5rem;
     left: var(--sidebar-fixed-size);
-    z-index: 100;
+    z-index: 99;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .explorer .selected {
@@ -542,7 +562,7 @@
     width: calc(var(--sidebar-size) - var(--sidebar-fixed-size));
     height: 1.5rem;
     left: var(--sidebar-fixed-size);
-    z-index: 98;
+    z-index: 0;
     background-color: var(--side-bar-bg-selected-color);
   }
 
@@ -561,6 +581,7 @@
     .desc
     div::before {
     margin: 0.1rem 0.1rem 0.1rem 0;
+    font-size: 1rem;
     font-weight: 400;
     font-family: var(--sidebar-font);
     content: '\eab4';
@@ -604,7 +625,7 @@
     display: inline-block;
     width: 16px;
     height: 16px;
-    margin: 0.1rem 0.5rem 0.1rem 0.5rem;
+    margin: 0.1rem 0.4rem 0.1rem 0.4rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -619,7 +640,7 @@
     > .explorer
     .item
     span.folder::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/folder.png');
+    background-image: url('./assets/img/icons/material/folder.png');
   }
 
   main
@@ -630,7 +651,7 @@
     > .explorer
     .item
     span.html::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/html.svg');
+    background-image: url('./assets/img/icons/material/html.svg');
   }
 
   main
@@ -641,7 +662,7 @@
     > .explorer
     .item
     span.css::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/css.svg');
+    background-image: url('./assets/img/icons/material/css.svg');
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .outline {
@@ -649,14 +670,20 @@
     flex: 1;
     flex-direction: column;
     justify-items: baseline;
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .outline > span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 0.1rem 0 0.1rem 0;
     padding: 0;
     color: var(--menu-color);
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
   }
@@ -670,6 +697,7 @@
     > span::before {
     margin: 0 0.25rem 0 0.25rem;
     padding: 0;
+    font-size: 1rem;
     font-weight: 400;
     font-family: var(--sidebar-font);
     content: '\eab4';
@@ -680,14 +708,20 @@
     flex: 1;
     flex-direction: column;
     justify-items: baseline;
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
   }
 
   main > .sidebar > .collapsable > .content > .accordeon > .timeline > span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 0.1rem 0 0.1rem 0;
     padding: 0;
     color: var(--menu-color);
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
   }
@@ -702,15 +736,15 @@
     margin: 0 0.25rem 0 0.25rem;
     padding: 0;
     font-weight: 400;
+    font-size: 1rem;
     font-family: var(--sidebar-font);
     content: '\eab4';
   }
 
   main > .editor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    display: block;
+    float: right;
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     background-color: var(--editor-bg-color);
@@ -720,11 +754,13 @@
     position: absolute;
     width: 18rem;
     height: 18rem;
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/main/code.png');
+    left: 50%;
+    right: 50%;
+    background-image: url('./assets/img/icons/main/code.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 3rem;
+    margin-top: 5rem;
     filter: saturate(0);
     z-index: 0;
   }
@@ -732,17 +768,19 @@
   main > .editor > .wrapper {
     position: relative;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
-    height: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
     background-color: var(--editor-bg-color);
-    z-index: 1;
+    z-index: 99;
   }
 
   main > .editor > .wrapper > .tabbar {
-    position: absolute;
     display: flex;
     flex-direction: row;
-    height: 3rem;
+    height: 2rem;
     width: 100%;
     background-color: var(--side-bar-bg-color);
     font-family: var(--main-font);
@@ -789,11 +827,11 @@
   }
 
   main > .editor > .wrapper > .tabbar ul li.html::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/html.svg');
+    background-image: url('./assets/img/icons/material/html.svg');
   }
 
   main > .editor > .wrapper > .tabbar ul li.css::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/css.svg');
+    background-image: url('./assets/img/icons/material/css.svg');
   }
 
   main > .editor > .wrapper > .tabbar ul li::after {
@@ -812,15 +850,14 @@
   }
 
   main > .editor > .wrapper > .breadcrumb {
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 3rem;
     width: 100%;
     height: 1.5rem;
     font-weight: 500;
     background-color: var(--editor-bg-color);
+    z-index: 99;
   }
 
   main > .editor > .wrapper > .breadcrumb.scroll {
@@ -854,15 +891,15 @@
     width: 1rem;
     height: 1rem;
     content: '';
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/html.svg');
+    background-image: url('./assets/img/icons/material/html.svg');
   }
 
   main > .editor > .wrapper > .breadcrumb ul li.css::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/css.svg');
+    background-image: url('./assets/img/icons/material/css.svg');
   }
 
   main > .editor > .wrapper > .breadcrumb ul li.folder::before {
-    background-image: url('file:///f:/Dev/Pessoal/joze.cc/portfolio/assets/img/icons/material/folder.png');
+    background-image: url('./assets/img/icons/material/folder.png');
   }
 
   main > .editor > .wrapper > .breadcrumb ul li::after {
@@ -875,17 +912,16 @@
   }
 
   main > .editor > .wrapper > .content-wrapper {
+    position: absolute;
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
-    padding: 0;
-    width: calc(100% - var(--editor-sidebar-lines-size));
-    height: 100%;
+    top: 3.5rem;
+    left: 0;
+    right: 0;
     bottom: 0;
     font-family: var(--editor-font);
-    overflow-y: scroll;
-    overflow-x: visible;
-    overflow-wrap: normal;
+    overflow: hidden;
+    z-index: 0;
   }
 
   main > .editor > .wrapper > .content-wrapper > .sidebar-lines {
@@ -908,7 +944,7 @@
   }
 
   main > .editor > .wrapper > .content-wrapper > .content {
-    width: calc(100% - var(--sidebar-size) + 1rem);
+    width: 100%;
     height: 100%;
     line-height: 1;
     background-color: var(--editor-bg-color);
@@ -916,5 +952,14 @@
     overflow-y: visible;
     overflow-wrap: normal;
     user-select: text;
+    z-index: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    height: 1.2rem;
+    background-color: #007acc;
+    z-index: 99;
   }
 }
