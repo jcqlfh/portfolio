@@ -1,8 +1,21 @@
-## 👋 Hi, my name is <strong>Jose Candido!</strong>
+
+<img style="width:200%" src="https://media.licdn.com/dms/image/C4D16AQFvpjOfdukuyA/profile-displaybackgroundimage-shrink_350_1400/0/1605223614388?e=1679529600&v=beta&t=4NGzxmX9deW_IzQ6D5kLKcYmd9zbIqJ3psRR-f223HQ"/>
 
 <br/>
 
->  With more than 15 years of experience within the System Development field, I’ve worked using various types of tools, and technologies. I did participate in different kinds of projects doing analysis, specifying or developing web, desktop, or mobile applications, web services, data integrations, and extractions; all of them using C# .NET or Java as the main programming language. Besides that, I can use the concepts of POO and design patterns well. I also worked with teams following different types of processes and methods, like Scrum, RUP, or CMMi, acting in companies of many areas such as software house, industry, fintechs, etc
+## 👋 Hi! I'm <strong>Jose Candido!</strong>
+<div align="left">
+  <a href="mailto:hi@jose.cx" alt="Gmail">
+  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-round&labelColor=FF0000&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/jcqlfh/" alt="Linkedin">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-round&logo=Linkedin&logoColor=white" /></a>
+  <a href="https://wa.me/5585981261370" alt="WhatsApp">
+  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-round&labelColor=25d366&logo=whatsapp&logoColor=white"/></a>
+</div>  
+
+<br/>
+
+>  With more than 15 years of experience within the System Development field, I’ve worked using various types of tools, and technologies. I did participate in different kinds of projects doing analysis, specifying or developing web, desktop, or mobile applications, web services, data integrations, and extractions; all of them using C# .NET or Java as the main programming language. Besides that, I can use the concepts of POO and design patterns well. I also worked with teams following different types of processes and methods, like Scrum, RUP, or CMMi, acting in companies of many areas such as software house, industry, fintechs, etc.
 
 <br/>
 
@@ -16,52 +29,51 @@
 
 ### Computer Languages
 
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" alt="C#" title="C#"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png" alt="Java" title="Java"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" title="JavaScript"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript" title="TypeScript"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML" title="HTML"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS" title="CSS"/></code>
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" alt="C#" title="C#"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png" alt="Java" title="Java"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" title="JavaScript"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript" title="TypeScript"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML" title="HTML"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS" title="CSS"/>
 
 <br/>
 
 ### Front-end 
 
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" alt="Angular" title="Angular"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/680b4717c7acabd1eb10b8c008991a160a84bc88/topics/blazor/blazor.png" alt="Blazor" title="Blazor"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React" title="React"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" alt="VueJS" title="VueJS"/></code>&nbsp;
-<code><img height="48" src="https://raw.githubusercontent.com/sveltejs/svelte/29052aba7d0b78316d3a52aef1d7ddd54fe6ca84/site/static/images/svelte-android-chrome-512.png" alt="Svelte" title="Svelte"/></code>
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" alt="Angular" title="Angular"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/680b4717c7acabd1eb10b8c008991a160a84bc88/topics/blazor/blazor.png" alt="Blazor" title="Blazor"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React" title="React"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" alt="VueJS" title="VueJS"/>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/sveltejs/svelte/29052aba7d0b78316d3a52aef1d7ddd54fe6ca84/site/static/images/svelte-android-chrome-512.png" alt="Svelte" title="Svelte"/>
 
 <br/>
 
 ### Back-end
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt="Dotnet" title="Dotnet"/></code>&nbsp;
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="NodeJS" title="NodeJS"/></code>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt="Dotnet" title="Dotnet"/>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="NodeJS" title="NodeJS"/>&nbsp;
 
 <br/>
 
 ### Data Storage
-<code><img height="48" src="https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.png" alt="Sql Server" title="Sql Server"/></code>&nbsp;
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/117208736-bdedc080-adf5-11eb-912f-61c7d43705f6.png" alt="Oracle" title="Oracle"/></code>&nbsp;
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="MongoDB" title="MongoDB"/></code>
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" alt="Firebase" title="Firebase"/></code>
+<img height="48" src="https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.png" alt="Sql Server" title="Sql Server"/>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/117208736-bdedc080-adf5-11eb-912f-61c7d43705f6.png" alt="Oracle" title="Oracle"/>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="MongoDB" title="MongoDB"/>
+<img height="48" src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" alt="Firebase" title="Firebase"/>
 
 <br/>
 
 ### Version Control Tools
-<code><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="Git" title="Git"/></code>&nbsp;
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/></code>&nbsp;
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/192108376-c675d39b-90f6-4073-bde6-5a9291644657.png" alt="GitLab" title="GitLab"/></code>&nbsp;
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/192108375-268c35e6-ab26-44b2-88bf-e3121a4e5083.png" alt="Bitbucket" title="Bitbucket"/></code>&nbsp;
+<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="Git" title="Git"/>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/192108376-c675d39b-90f6-4073-bde6-5a9291644657.png" alt="GitLab" title="GitLab"/>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/192108375-268c35e6-ab26-44b2-88bf-e3121a4e5083.png" alt="Bitbucket" title="Bitbucket"/>&nbsp;
 
 <br/> 
 
 ### Cloud Computing
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png" alt="Azure" title="Azure"/></code>&nbsp;
-<code><img height="48" src="https://user-images.githubusercontent.com/25181517/183911547-990692bc-8411-4878-99a0-43506cdb69cf.png" alt="Google" title="Google"/></code>&nbsp;
-<code><img height="48" src="https://www.cloudfoundry.org/wp-content/uploads/vertical-color-thumb.jpg
-" alt="Pivotal Cloud Foundry" title="Pivotal Cloud Foundry"/></code>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png" alt="Azure" title="Azure"/>&nbsp;
+<img height="48" src="https://user-images.githubusercontent.com/25181517/183911547-990692bc-8411-4878-99a0-43506cdb69cf.png" alt="Google" title="Google"/>&nbsp;
+<img height="48" src="https://www.cloudfoundry.org/wp-content/uploads/vertical-color-thumb.jpg" alt="Pivotal Cloud Foundry" title="Pivotal Cloud Foundry"/>&nbsp;
 
 <br/>
 
@@ -99,7 +111,7 @@
 
 <br/>
 
-## Certifications
+## 🌟 Certifications
  - Microsoft Certified: Azure Fundamentals
  - EF Standard English Test (EF SET): EF Set C2 Proficient
  - CertProf: Scrum Foundation Professional Certificate
