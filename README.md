@@ -29,51 +29,51 @@
 
 ### Computer Languages
 
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" alt="C#" title="C#"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png" alt="Java" title="Java"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" title="JavaScript"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript" title="TypeScript"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML" title="HTML"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS" title="CSS"/>
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" alt="C#" title="C#"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png" alt="Java" title="Java"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" title="JavaScript"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript" title="TypeScript"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML" title="HTML"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS" title="CSS"/></a>
 
 <br/>
 
 ### Front-end 
 
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" alt="Angular" title="Angular"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/github/explore/680b4717c7acabd1eb10b8c008991a160a84bc88/topics/blazor/blazor.png" alt="Blazor" title="Blazor"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React" title="React"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" alt="VueJS" title="VueJS"/>&nbsp;
-<img height="48" src="https://raw.githubusercontent.com/sveltejs/svelte/29052aba7d0b78316d3a52aef1d7ddd54fe6ca84/site/static/images/svelte-android-chrome-512.png" alt="Svelte" title="Svelte"/>
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" alt="Angular" title="Angular"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/680b4717c7acabd1eb10b8c008991a160a84bc88/topics/blazor/blazor.png" alt="Blazor" title="Blazor"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React" title="React"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" alt="VueJS" title="VueJS"/></a>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/sveltejs/svelte/29052aba7d0b78316d3a52aef1d7ddd54fe6ca84/site/static/images/svelte-android-chrome-512.png" alt="Svelte" title="Svelte"/></a>
 
 <br/>
 
 ### Back-end
-<img height="48" src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt="Dotnet" title="Dotnet"/>&nbsp;
-<img height="48" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="NodeJS" title="NodeJS"/>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/121405754-b4f48f80-c95d-11eb-8893-fc325bde617f.png" alt="Dotnet" title="Dotnet"/></a>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="NodeJS" title="NodeJS"/></a>&nbsp;
 
 <br/>
 
 ### Data Storage
-<img height="48" src="https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.png" alt="Sql Server" title="Sql Server"/>&nbsp;
-<img height="48" src="https://user-images.githubusercontent.com/25181517/117208736-bdedc080-adf5-11eb-912f-61c7d43705f6.png" alt="Oracle" title="Oracle"/>&nbsp;
-<img height="48" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="MongoDB" title="MongoDB"/>
-<img height="48" src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" alt="Firebase" title="Firebase"/>
+<a href="#"><img height="48" src="https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.png" alt="Sql Server" title="Sql Server"/></a>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/117208736-bdedc080-adf5-11eb-912f-61c7d43705f6.png" alt="Oracle" title="Oracle"/></a>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="MongoDB" title="MongoDB"/></a>
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" alt="Firebase" title="Firebase"/></a>
 
 <br/>
 
 ### Version Control Tools
-<img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="Git" title="Git"/>&nbsp;
-<img height="48" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/>&nbsp;
-<img height="48" src="https://user-images.githubusercontent.com/25181517/192108376-c675d39b-90f6-4073-bde6-5a9291644657.png" alt="GitLab" title="GitLab"/>&nbsp;
-<img height="48" src="https://user-images.githubusercontent.com/25181517/192108375-268c35e6-ab26-44b2-88bf-e3121a4e5083.png" alt="Bitbucket" title="Bitbucket"/>&nbsp;
+<a href="#"><img height="48" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="Git" title="Git"/></a>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/></a>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/192108376-c675d39b-90f6-4073-bde6-5a9291644657.png" alt="GitLab" title="GitLab"/></a>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/192108375-268c35e6-ab26-44b2-88bf-e3121a4e5083.png" alt="Bitbucket" title="Bitbucket"/></a>&nbsp;
 
 <br/> 
 
 ### Cloud Computing
-<img height="48" src="https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png" alt="Azure" title="Azure"/>&nbsp;
-<img height="48" src="https://user-images.githubusercontent.com/25181517/183911547-990692bc-8411-4878-99a0-43506cdb69cf.png" alt="Google" title="Google"/>&nbsp;
-<img height="48" src="https://www.cloudfoundry.org/wp-content/uploads/vertical-color-thumb.jpg" alt="Pivotal Cloud Foundry" title="Pivotal Cloud Foundry"/>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png" alt="Azure" title="Azure"/></a>&nbsp;
+<a href="#"><img height="48" src="https://user-images.githubusercontent.com/25181517/183911547-990692bc-8411-4878-99a0-43506cdb69cf.png" alt="Google" title="Google"/></a>&nbsp;
+<a href="#"><img height="48" src="https://www.cloudfoundry.org/wp-content/uploads/vertical-color-thumb.jpg" alt="Pivotal Cloud Foundry" title="Pivotal Cloud Foundry"/></a>&nbsp;
 
 <br/>
 
@@ -113,10 +113,10 @@
 
 ## 🌟 Certifications
  - Microsoft Certified: Azure Fundamentals
- - EF Standard English Test (EF SET): EF Set C2 Proficient
+ - Microsoft Specialist: Programming in HTML5 with JavaScript and CSS3
  - CertProf: Scrum Foundation Professional Certificate
  - freeCodeCamp.org: Full Stack Developer
- - Microsoft Specialist: Programming in HTML5 with JavaScript and CSS3
+ - EF Standard English Test (EF SET): EF Set C2 Proficient
  - TOEFL: TOEFL ITP (score 610)
 
 <br/>
@@ -201,14 +201,46 @@ Note: credits concluded, except thesis
 
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Nubank" src="https://media.licdn.com/dms/image/C4E0BAQFrjr5EUchy9w/company-logo_100_100/0/1519172538321?e=1682553600&v=beta&t=ehkbC-BQ1XLeF-pyf_lT1I9CqNeY-7XK6WZevOfLkD4"/>](https://ifce.edu.br/)
+[<img align="left" height="94px" width="94px" alt="IFCE" src="https://media.licdn.com/dms/image/C4E0BAQFrjr5EUchy9w/company-logo_100_100/0/1519172538321?e=1682553600&v=beta&t=ehkbC-BQ1XLeF-pyf_lT1I9CqNeY-7XK6WZevOfLkD4"/>](https://ifce.edu.br/)
 &nbsp;
-[**Federal Institute of Education, Scince and Technology**](https://ifce.edu.br/) \
+[**Federal Institute of Education, Science and Technology**](https://ifce.edu.br/) \
 &nbsp;
 **Technical Degree • Telecomunications** \
 &nbsp;
 1999 - 2003
 
 <br/>
+
+<br/>
+
+---
+
+<br/>
+
+## Public Projects
+
+<br/>
+
+
+
+[**Memoriae Urbe**](https://github.com/jcqlfh/memoriae-urbe) \
+Site of a game to be played in the city, where we provide clues of places and stick qr codes to be found (In Portuguese) \
+2022 \
+Tecnologies: `Svelte`.
+
+<br/>
+
+[**List COVID WEB**](https://github.com/jcqlfh/lst-covid) and [**API**](https://github.com/jcqlfh/lst-covid-api) \
+Site to search the name of a person within a list of vacination schedule in the city of fortaleza, on top of a of api that would get every available pdf in the city hall website, get its name listing, and search a name on it. (In Portoguese) \
+2020 \
+Tecnologies: `Angular`, `Tailwind`, `NodeJS`.
+
+
+<br/>
+
+[**Trello Merger**](https://github.com/jcqlfh/trello-merger) \
+Python script to merge a specific trello list, from specific board, and merge the items in the desktop image, in windows. \
+2020 \
+Tecnologies: `Python`.
 
 <br/>
