@@ -221,6 +221,12 @@ Note: credits concluded, except thesis
 
 <br/>
 
+[**BG Concierge**](https://github.com/jcqlfh/bg-concierge-ui) \
+Mobile application to search board games matching a filter criterion. \
+2023 \
+Tecnologies: `React Native`.
+
+<br/>
 
 
 [**Memoriae Urbe**](https://github.com/jcqlfh/memoriae-urbe) \
