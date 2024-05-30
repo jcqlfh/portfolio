@@ -1,5 +1,5 @@
 
-<img style="width:200%" src="https://media.licdn.com/dms/image/C4D16AQFvpjOfdukuyA/profile-displaybackgroundimage-shrink_350_1400/0/1605223614388?e=1679529600&v=beta&t=4NGzxmX9deW_IzQ6D5kLKcYmd9zbIqJ3psRR-f223HQ"/>
+<img style="width:100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"/>
 
 <br/>
 
@@ -176,7 +176,7 @@ Technologies: `.NET`, `ASP .NET MVC`, `Web API`, `T/SQL`, `Sybase`, `SQL Server`
 
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Puc Minas" src="https://www.pucminas.br/Style Library/STATIC/img/novas/brasao.png"/>](https://www.pucminas.br/)
+[<img align="left" height="94px" width="94px" alt="Puc Minas" src="https://www.pucminas.br/Style Library/CENTRAL/img/brasao-pucminas.png"/>](https://www.pucminas.br/)
 &nbsp;
 [**PUC Minas**](https://www.pucminas.br/) \
 &nbsp;
@@ -201,7 +201,7 @@ Note: credits concluded, except thesis
 
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="IFCE" src="https://ifce.edu.br/crato/noticias/aberto-prazo-para-avaliacao-institucional/logosif.png/@@images/fe56d6ac-bb94-4882-ba47-1ce67d4e0836.png"/>](https://ifce.edu.br/)
+[<img align="left" height="94px" width="94px" alt="IFCE" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Marca_IFCE_-_Vertical.png"/>](https://ifce.edu.br/)
 &nbsp;
 [**Federal Institute of Education, Science and Technology**](https://ifce.edu.br/) \
 &nbsp;
