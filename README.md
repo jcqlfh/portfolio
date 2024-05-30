@@ -15,7 +15,7 @@
 
 <br/>
 
->  With more than 15 years of experience within the System Development field, I’ve worked using various types of tools, and technologies. I did participate in different kinds of projects doing analysis, specifying or developing web, desktop, or mobile applications, web services, data integrations, and extractions; all of them using C# .NET or Java as the main programming language. Besides that, I can use the concepts of POO and design patterns well. I also worked with teams following different types of processes and methods, like Scrum, RUP, or CMMi, acting in companies of many areas such as software house, industry, fintechs, etc.
+>  With more than 15 years of experience within the System Development field, I’ve worked using various types of tools, and technologies. I participated in different kinds of projects doing analysis, specifying or developing web, desktop, or mobile applications, web services, data integrations, and extractions; all of them using C# .NET or Java as the main programming language. Besides that, I can use the concepts of POO and design patterns well. I also worked with teams following different types of processes and methods, like Scrum, RUP, or CMMi, acting in companies of many areas such as software houses, industry, fintechs, etc.
 
 <br/>
 
@@ -129,21 +129,21 @@
 
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Virtualmind" src="https://media.licdn.com/dms/image/C4D0BAQGY_IShwN8OGw/company-logo_100_100/0/1668606178158?e=1682553600&v=beta&t=ie98A_JiEwq-DOIA0ujsRyStyn72DgNFXyd_djIyjr4"/>](https://www.virtualmind.com/)
+[<img align="left" height="94px" width="94px" alt="SoftwareMind" src="https://softwaremind.com/favicon.svg"/>](https://www.softwaremind.com/)
 &nbsp;
 **Software Engineer** \
 &nbsp;
-[**Virtualmind**](https://www.virtualmind.com/) • Full-time \
+[**SoftwareMind**](https://www.softwaremind.com/) • Full-time \
 &nbsp;
-2021 - Actual\
+2021 - 2024\
 &nbsp;
-Tecnologies: `C#`, `Blazor`, `WPF`, `SignalR`, `Azure Service Bus`, `MVVM`
+Technologies: `C#`, `Blazor`, `WPF`, `SignalR`, `Azure Service Bus`, `MVVM`
 
 
 <br/>
 
 
-[<img align="left" height="94px" width="94px" alt="Atlantico Institute" src="https://media.licdn.com/dms/image/D4D0BAQHysi_nbqEnEw/company-logo_100_100/0/1666991492786?e=1682553600&v=beta&t=hKwqNkdYYND-yjYcZ0LuNlejb_tfuv8YWl2nqErokzA"/>](https://atlantico.com.br/)
+[<img align="left" height="94px" width="94px" alt="Atlantico Institute" src="https://www.atlantico.com.br/wp-content/uploads/2018/01/cropped-oie_30174851xg1xpNXI-192x192.png"/>](https://atlantico.com.br/)
 &nbsp;
 **Software Engineer** \
 &nbsp;
@@ -151,19 +151,19 @@ Tecnologies: `C#`, `Blazor`, `WPF`, `SignalR`, `Azure Service Bus`, `MVVM`
 &nbsp;
 2020 - 2021 \
 &nbsp;
-Tecnologies: `C#`, `.NET`, `Angular`, `REST Microservices`, `CQRS`, `MediatR`, `Office 365`, `BDD`, `Speckflow`, `Gherkin`
+Technologies: `C#`, `.NET`, `Angular`, `REST Microservices`, `CQRS`, `MediatR`, `Office 365`, `BDD`, `Speckflow`, `Gherkin`
 
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="CPQi" src="https://media.licdn.com/dms/image/D4D0BAQEf_YEROs7igw/company-logo_100_100/0/1666355433925?e=1682553600&v=beta&t=3Mg_9mRH_q9gPOZSuoAqfSTsD-qiLxIrozR7KwQdkfg"/>](https://cpqi.com/)
+[<img align="left" height="94px" width="94px" alt="CPQi" src="https://exadel.com/wp-content/themes/common/assets/favicons/browser-favicon.png"/>](https://exadel.com/)
 &nbsp;
 **Software Engineer** \
 &nbsp;
-[**CPQI**](https://cpqi.com/) • Full-time \
+[**CPQI (now Exadel)**](https://exadel.com/) • Full-time \
 &nbsp;
 2016 - 2020 \
 &nbsp;
-Tecnologies: `.NET`, `ASP .NET MVC`, `Web API`, `T/SQL`, `Sybase`, `SQL Server`, `VBA`, `MS Excel`, `MS Access`, `Java`, `JAXB`.
+Technologies: `.NET`, `ASP .NET MVC`, `Web API`, `T/SQL`, `Sybase`, `SQL Server`, `VBA`, `MS Excel`, `MS Access`, `Java`, `JAXB`.
 
 <br/>
 
