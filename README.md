@@ -176,7 +176,7 @@ Technologies: `.NET`, `ASP .NET MVC`, `Web API`, `T/SQL`, `Sybase`, `SQL Server`
 
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="Puc Minas" src="https://media.licdn.com/dms/image/C4D0BAQFSybvCzUeNoQ/company-logo_100_100/0/1669894042482?e=1682553600&v=beta&t=YUqu2Kt4eZIPxCkYUYz1QKDAGfel_g-HkcaDzrAQhbI"/>](https://www.pucminas.br/)
+[<img align="left" height="94px" width="94px" alt="Puc Minas" src="https://www.pucminas.br/Style Library/STATIC/img/novas/brasao.png"/>](https://www.pucminas.br/)
 &nbsp;
 [**PUC Minas**](https://www.pucminas.br/) \
 &nbsp;
@@ -189,7 +189,7 @@ Technologies: `.NET`, `ASP .NET MVC`, `Web API`, `T/SQL`, `Sybase`, `SQL Server`
 <br/>
 
 
-[<img align="left" height="94px" width="94px" alt="UECE" src="https://media.licdn.com/dms/image/C4E0BAQFCuUIXnmjLAg/company-logo_100_100/0/1519902668441?e=1682553600&v=beta&t=Te6pLnEjY-5SOrYJMiB3QoM55ldB1IPjccVyvMRaEig"/>](https://uece.br/)
+[<img align="left" height="94px" width="94px" alt="UECE" src="https://www.uece.br/wp-content/uploads/2023/11/LogoUeceVerticalAltaResolução-e1700675467882.png"/>](https://uece.br/)
 &nbsp;
 [**Ceará State University**](https://uece.br/) \
 &nbsp;
@@ -201,7 +201,7 @@ Note: credits concluded, except thesis
 
 <br/>
 
-[<img align="left" height="94px" width="94px" alt="IFCE" src="https://media.licdn.com/dms/image/C4E0BAQFrjr5EUchy9w/company-logo_100_100/0/1519172538321?e=1682553600&v=beta&t=ehkbC-BQ1XLeF-pyf_lT1I9CqNeY-7XK6WZevOfLkD4"/>](https://ifce.edu.br/)
+[<img align="left" height="94px" width="94px" alt="IFCE" src="https://ifce.edu.br/crato/noticias/aberto-prazo-para-avaliacao-institucional/logosif.png/@@images/fe56d6ac-bb94-4882-ba47-1ce67d4e0836.png"/>](https://ifce.edu.br/)
 &nbsp;
 [**Federal Institute of Education, Science and Technology**](https://ifce.edu.br/) \
 &nbsp;
